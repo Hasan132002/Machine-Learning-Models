@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.metrics import classification_report
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\Warda Ghias\Desktop\ML\ML PROJECTS\Cancer_Data.csv")
+df = pd.read_csv(r"C:\Users\Hasan Raza\Desktop\ML\ML PROJECTS\Cancer_Data.csv")
 
 
 # Separate features and target
@@ -42,4 +42,5 @@ print(classification_report(y_test, predictions))
 # Accuracy in percentage
 accuracy = model.score(X_test, y_test)
 print(f"Accuracy: {accuracy * 100:.2f}%")
+
 
