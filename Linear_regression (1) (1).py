@@ -5,7 +5,7 @@ import seaborn as sns
 import scipy.stats as stats
 import statsmodels.api as sm
 
-df = pd.read_csv(r'C:/Users/Warda Ghias/Desktop/AI ENGINEERING/diamonds.csv')
+df = pd.read_csv(r'C:/Users/Hasan Raza/Desktop/AI ENGINEERING/diamonds.csv')
 df.head()
 def predict_diamond_price():
     
@@ -50,4 +50,5 @@ def multiple_linear_regression():
 multiple_linear_regression
 #pd.get_dummies() is a function in pandas that converts categorical variable(s) into dummy/indicator variables.example:
 #df = pd.DataFrame({'Color': ['Red', 'Blue', 'Green']}) 
+
 #dtype - int to get numeric values for the regression model by get_dummies and drop_first = True to avoid the dummy variable trap.
